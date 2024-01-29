@@ -1,0 +1,38 @@
+.flexy{
+    display: flex;
+    width: 100%;
+}
+
+.logo-allign{
+    align-self: center;
+    padding-right: 20px;
+}
+
+.menu-items:hover{
+    background-color: rgb(27, 28, 29);
+    color: white;
+    /* opacity: 0.3; */
+}
+.up-btn:hover{
+    background-color: rgb(27, 28, 29);
+    border: solid 2px white;
+    color: white;
+    /* opacity: 0.3; */
+}
+.nav-arrow-cont{
+    padding-left: 20px;
+    width: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey-clr{
+    color: rgb(86, 90, 93)
+}
+.icon-hover:hover{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-right: 0;
+    cursor: pointer;
+}

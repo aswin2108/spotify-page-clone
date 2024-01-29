@@ -1,0 +1,109 @@
+@import url('shared-styles.css');
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.app-content{
+    display: flex;
+    width: 100vw;
+}
+
+.side-pannel{
+    color: rgb(86, 90, 93);
+    width: 18vw;
+}
+
+.logo-container{
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 80%;
+    color: white;
+    width: fit-content;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    font-size: 25px;
+}
+.menu-item-cont{
+    display: flex;
+
+}
+
+.logo{
+    width: 20%;
+    height: fit-content;
+    margin-right: 7px;
+}
+.menu{
+    height: 33vh;
+    width: 100%;
+    background-color: rgb(15, 15, 16);
+    border-radius: 20px;
+    margin: 10px;
+}
+.menu-items{
+    font-size: 15px;
+    width: 100%;
+    justify-content: left;
+    border-radius: 7px;
+}
+
+.menu-playlist-title{
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.menu-starred-list{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.starred-list{
+    list-style: none;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: left;
+    font-size: 14px;
+}
+.playlist{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(15, 15, 16);
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+::-webkit-scrollbar {
+    width: 6px; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 3px; 
+  }
+.main-content{
+    width: 82vw;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+}
+.nav-right-cnt{
+    padding-right: 3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.up-btn{
+    border: solid 2px rgb(86, 90, 93);
+    color: rgb(86, 90, 93);
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    margin-right: 5px;
+}
