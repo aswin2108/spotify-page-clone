@@ -11,13 +11,13 @@
 .menu-items:hover{
     background-color: rgb(27, 28, 29);
     color: white;
-    /* opacity: 0.3; */
+    cursor: pointer;
 }
 .up-btn:hover{
     background-color: rgb(27, 28, 29);
     border: solid 2px white;
     color: white;
-    /* opacity: 0.3; */
+    cursor: pointer;
 }
 .nav-arrow-cont{
     padding-left: 20px;
@@ -27,36 +27,28 @@
 }
 
 .grey-clr{
-    color: rgb(86, 90, 93);
+    color: rgb(113, 118, 122);
 }
 .icon-hover:hover{
     color: white;
-    border-radius: 50px;
-    /* padding-right: 0; */
     cursor: pointer;
 }
 .main-list-cont{
     flex-direction: column;
-    /* width: 80vw; */
 }
 .main-list{
     display: flex;
-    /* width: 100%; */
     overflow-x: scroll ;
-    /* flex-wrap: nowrap */
 }
 .main-list::-webkit-scrollbar {
-    width: 0px; /* Set scrollbar width to 0 */
-    /* background: transparent; Match background of the element */
+    width: 0px; 
   }
 .list-title{
     color: white;
     font-size: 25px;
 }
 .main-list-card{
-    /* width: 300px; */
     width: 300px;
-    /* height: fit-content; */
     margin: 15px;
     flex-direction: column;
 }
