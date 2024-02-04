@@ -1,72 +1,72 @@
-.flexy{
-    display: flex;
-    width: 100%;
+.flexy {
+  display: flex;
+  width: 100%;
 }
 
-.logo-allign{
-    align-self: center;
-    padding-right: 20px;
+.logo-allign {
+  align-self: center;
+  padding-right: 20px;
 }
 
-.menu-items:hover{
-    background-color: rgb(27, 28, 29);
-    color: white;
-    cursor: pointer;
+.menu-items:hover {
+  background-color: rgb(27, 28, 29);
+  color: white;
+  cursor: pointer;
 }
-.up-btn:hover{
-    background-color: rgb(27, 28, 29);
-    border: solid 2px white;
-    color: white;
-    cursor: pointer;
+.up-btn:hover {
+  background-color: rgb(27, 28, 29);
+  border: solid 2px white;
+  color: white;
+  cursor: pointer;
 }
-.nav-arrow-cont{
-    padding-left: 20px;
-    width: 3vw;
-    display: flex;
-    justify-content: space-between;
+.nav-arrow-cont {
+  padding-left: 20px;
+  width: 3vw;
+  display: flex;
+  justify-content: space-between;
 }
 
-.grey-clr{
-    color: rgb(113, 118, 122);
+.grey-clr {
+  color: rgb(113, 118, 122);
 }
-.icon-hover:hover{
-    color: white;
-    cursor: pointer;
+.icon-hover:hover {
+  color: white;
+  cursor: pointer;
 }
-.main-list-cont{
-    flex-direction: column;
+.main-list-cont {
+  flex-direction: column;
 }
-.main-list{
-    display: flex;
-    overflow-x: scroll ;
+.main-list {
+  display: flex;
+  overflow-x: scroll;
 }
 .main-list::-webkit-scrollbar {
-    width: 0px; 
-  }
-.list-title{
-    color: white;
-    font-size: 25px;
+  width: 0px;
 }
-.main-list-card{
-    width: 300px;
-    margin: 15px;
-    flex-direction: column;
+.list-title {
+  color: white;
+  font-size: 25px;
 }
-.main-list-card img{
-    width: 180px;
-} 
-.list-sub-title{
-    font-size: 15px;
-    color: rgb(86, 90, 93);
+.main-list-card {
+  width: 300px;
+  margin: 15px;
+  flex-direction: column;
 }
-.list-item-title{
-    font-size: 13px;
+.main-list-card img {
+  width: 180px;
 }
-.list-item-description{
-    font-size: 11px;
-    color: rgb(86, 90, 93);
-    margin-top: 0;
+.list-sub-title {
+  font-size: 15px;
+  color: rgb(86, 90, 93);
 }
-.main-list-card:hover{
-    background-color: rgb(27, 28, 29);
+.list-item-title {
+  font-size: 13px;
+}
+.list-item-description {
+  font-size: 11px;
+  color: rgb(86, 90, 93);
+  margin-top: 0;
+}
+.main-list-card:hover {
+  background-color: rgb(27, 28, 29);
 }
