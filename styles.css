@@ -38,7 +38,7 @@ body{
     margin-right: 7px;
 }
 .menu{
-    height: 33vh;
+    height: 37vh;
     width: 100%;
     background-color: rgb(15, 15, 16);
     border-radius: 20px;
@@ -78,15 +78,25 @@ body{
     margin: 10px;
     
 }
-::-webkit-scrollbar {
+.playlist::-webkit-scrollbar {
     width: 6px; 
   }
-  ::-webkit-scrollbar-thumb {
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 3px; 
+  }
+.main-content::-webkit-scrollbar {
+    width: 6px; 
+  }
+  .main-content::-webkit-scrollbar-thumb {
     background-color: #888; 
     border-radius: 3px; 
   }
 .main-content{
     width: 82vw;
+    margin-left: 25px;
+    height: 90vh;
+    overflow-y: scroll;
 }
 .navbar{
     display: flex;
@@ -106,4 +116,18 @@ body{
     border-radius: 20px;
     padding: 5px 20px 5px 20px;
     margin-right: 5px;
+}
+.main-list::-webkit-scrollbar {
+    width: 0px; /* Set scrollbar width to 0 */
+    /* background: transparent; Match background of the element */
+  }
+
+.main-list-card{
+    margin: 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+.arrow-icon{
+    padding-right: 20px;
+    align-self: center;
 }
