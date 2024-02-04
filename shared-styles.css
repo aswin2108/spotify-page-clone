@@ -27,12 +27,54 @@
 }
 
 .grey-clr{
-    color: rgb(86, 90, 93)
+    color: rgb(86, 90, 93);
 }
 .icon-hover:hover{
     color: white;
-    border: 1px solid white;
     border-radius: 50px;
-    padding-right: 0;
+    /* padding-right: 0; */
     cursor: pointer;
+}
+.main-list-cont{
+    flex-direction: column;
+    /* width: 80vw; */
+}
+.main-list{
+    display: flex;
+    /* width: 100%; */
+    overflow-x: scroll ;
+    /* flex-wrap: nowrap */
+}
+.main-list::-webkit-scrollbar {
+    width: 0px; /* Set scrollbar width to 0 */
+    /* background: transparent; Match background of the element */
+  }
+.list-title{
+    color: white;
+    font-size: 25px;
+}
+.main-list-card{
+    /* width: 300px; */
+    width: 300px;
+    /* height: fit-content; */
+    margin: 15px;
+    flex-direction: column;
+}
+.main-list-card img{
+    width: 180px;
+} 
+.list-sub-title{
+    font-size: 15px;
+    color: rgb(86, 90, 93);
+}
+.list-item-title{
+    font-size: 13px;
+}
+.list-item-description{
+    font-size: 11px;
+    color: rgb(86, 90, 93);
+    margin-top: 0;
+}
+.main-list-card:hover{
+    background-color: rgb(27, 28, 29);
 }
